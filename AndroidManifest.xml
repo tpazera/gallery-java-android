@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pazera.gallery"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pazera.gallery.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.ImgActivity"
+            android:label="@string/title_activity_img"
+            android:parentActivityName="com.pazera.gallery.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pazera.gallery.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.ImageActivity"
+            android:label="@string/title_activity_image" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.GalleryActivity"
+            android:label="@string/title_activity_gallery" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.LayoutActivity"
+            android:label="@string/title_activity_layout" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.NetworkActivity"
+            android:label="@string/title_activity_network" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.PicturesActivity"
+            android:label="@string/title_activity_pictures" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.CameraActivity"
+            android:label="@string/title_activity_camera"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.SingleActivity"
+            android:label="@string/title_activity_single" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.Collage"
+            android:label="@string/title_activity_collage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.SimpleCameraActivity"
+            android:label="@string/title_activity_simple_camera" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.SimpleCameraPreview"
+            android:label="@string/title_activity_simple_camera_preview" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.Camera2Activity"
+            android:label="@string/title_activity_camera2" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.TextActivity"
+            android:label="@string/title_activity_text" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.SingletextActivity"
+            android:label="@string/title_activity_singletext" >
+        </activity>
+        <activity
+            android:name="com.pazera.gallery.EffectsActivity"
+            android:label="@string/title_activity_effects" >
+        </activity>
+    </application>
+
+</manifest>

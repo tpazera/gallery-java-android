@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camera2Activity" >
+
+    <FrameLayout
+        android:id="@+id/cameraFrame"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/pictureFrame"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true" >
+
+    </FrameLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      	android:visibility="invisible"
+      	android:background="#000000"
+      	android:id="@+id/layoutPreview"
+        >
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      	android:visibility="invisible"
+      	android:background="#000000"
+      	android:id="@+id/layoutPreview"
+        >
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="#99000000"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/cameraAccept"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/accept" />
+        
+        <ImageView
+            android:id="@+id/cameraTake"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/take" />
+        
+        <ImageView
+            android:id="@+id/cameraDeny"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/deny" />
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>

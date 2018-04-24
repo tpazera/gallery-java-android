@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".LayoutActivity" >
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:orientation="horizontal" >
+        
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:id="@+id/ekran1"
+		        android:background="#000000"
+		        android:orientation="vertical" >
+        
+            	<ImageView
+            	    android:layout_width="match_parent"
+            	    android:layout_height="match_parent"
+            	    android:layout_weight="1"
+            	    android:padding="10dp"
+            	    android:src="@drawable/ekran1" />
+
+    		</LinearLayout>
+    		
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:id="@+id/ekran2"
+		        android:background="#000000"
+		        android:orientation="vertical" >
+        
+            	<ImageView
+            	    android:layout_width="match_parent"
+            	    android:layout_height="match_parent"
+            	    android:layout_weight="1"
+            	    android:padding="10dp"
+            	    android:src="@drawable/ekran2" />
+
+    		</LinearLayout>
+
+    	</LinearLayout>
+    	
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:orientation="horizontal" >
+
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:background="#000000"
+		        android:id="@+id/ekran3"
+		        android:orientation="vertical" >
+        
+            	<ImageView
+            	    android:layout_width="match_parent"
+            	    android:layout_height="match_parent"
+            	    android:layout_weight="1"
+            	    android:padding="10dp"
+            	    android:src="@drawable/ekran3" />
+
+    		</LinearLayout>
+    		
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:background="#000000"
+		        android:id="@+id/ekran4"
+		        android:orientation="vertical" >
+        
+            	<ImageView
+            	    android:layout_width="match_parent"
+            	    android:layout_height="match_parent"
+            	    android:layout_weight="1"
+            	    android:padding="10dp"
+            	    android:src="@drawable/ekran4" />
+
+    		</LinearLayout>
+
+   		</LinearLayout>
+        
+        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:orientation="horizontal" >
+
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:background="#000000"
+		        android:id="@+id/ekran5"
+		        android:orientation="vertical" >
+        
+            	<ImageView
+            	    android:layout_width="match_parent"
+            	    android:layout_height="match_parent"
+            	    android:layout_weight="1"
+            	    android:padding="10dp"
+            	    android:src="@drawable/ekran5" />
+
+    		</LinearLayout>
+    		
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1"
+		        android:background="#000000"
+		        android:id="@+id/ekran6"
+		        android:orientation="vertical" >
+        
+            	<ImageView
+            	    android:layout_width="match_parent"
+            	    android:layout_height="match_parent"
+            	    android:layout_weight="1"
+            	    android:padding="10dp"
+            	    android:src="@drawable/ekran6" />
+
+    		</LinearLayout>
+
+   		</LinearLayout>   
+    </LinearLayout>
+
+</RelativeLayout>
